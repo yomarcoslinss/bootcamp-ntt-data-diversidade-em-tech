@@ -7,7 +7,7 @@ Meu repositório do Bootcamp [NTT DATA Diversidade em Tech](https://web.dio.me/t
 Incompleto: ✖️
 
 
-Prepare-se Para a Jornada (Onboarding) ✖️  
+Prepare-se Para a Jornada (Onboarding) ✔️ 14/10/2022  
 Páginas Web com HTML e CSS ✖️  
 Primeiras Páginas Interativas com JavaScript ✖️  
 Dominando Algoritmos Básicos com Desafios de Código JavaScript ✖️  
