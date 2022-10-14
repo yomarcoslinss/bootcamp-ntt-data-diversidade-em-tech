@@ -1,6 +1,6 @@
 ---------------
 # Bootcamp NTT DATA Diversidade em Tech
-Meu repositório do Bootcamp [NTT DATA Diversidade em Tech](https://web.dio.me/track/38a27e68-67ae-444d-9110-1056e605237d) da plataforma DIO.
+Meu repositório do Bootcamp [NTT DATA Diversidade em Tech](https://web.dio.me/track/38a27e68-67ae-444d-9110-1056e605237d) da plataforma **DIO**.
 
 ## Módulos: 
 > Completo: ✔️
