@@ -1,7 +1,7 @@
----------------
 # Bootcamp NTT DATA Diversidade em Tech
 Meu repositório do Bootcamp [NTT DATA Diversidade em Tech](https://web.dio.me/track/38a27e68-67ae-444d-9110-1056e605237d) da plataforma **DIO**.
 
+---------------
 ## Módulos: 
 > Completo: ✔️
 Incompleto: ✖️
@@ -16,3 +16,6 @@ Dominando Algoritmos Intermediários com Desafios de Código JavaScript ✖️
 Princípios de Cloud Computing com AWS ✖️ 
 
 ---------------
+## Desafios de Projeto:
+• [Link do Repositório](https://github.com/yomarcoslinss/bootcamp-ntt-data-diversidade-em-tech/tree/main/Desafios%20de%20Projeto)  
+• [Módulo 01 - Primeiros passos com HTML](https://yomarcoslinss.github.io/bootcamp-ntt-data-diversidade-em-tech/Desafios%20de%20Projeto/trilha-html-modulo-1/index.html)
