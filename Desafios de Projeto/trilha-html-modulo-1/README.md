@@ -4,9 +4,8 @@
 >  
 Utilizar todas as tags abaixo:
 ```html
-<h1> até <h6>, <p>, <mark>, <small>, <i>, <u>, <strong>, <ol>, <ul>, <li>, <a>, <hr>, <sub>, <sup>, <blockquote>, <font>, <del>,  
-<p>, <abbr>
+<h1>-<h6>, <p>, <mark>, <small>, <i>, <u>, <strong>, <ol>, <ul>, <li>, <a>, <hr>, <sub>, <sup>, <blockquote>, <font>, <del>, <abbr>
 ```  
 ----------
-Vale ressaltar que as tags `<font>, <del>, <p>, <abbr>` não foram explicadas durante as aulas, a ideia é pesquisar por elas na internet.  
+Vale ressaltar que as tags `<font>, <del>, <abbr>` não foram explicadas durante as aulas, a ideia é pesquisar por elas na internet.  
 Após concluído este desafio! Siga para o [Módulo II - Conceitos Básicos](https://).
