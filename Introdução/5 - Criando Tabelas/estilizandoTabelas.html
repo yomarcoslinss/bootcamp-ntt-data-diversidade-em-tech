@@ -5,11 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabalhando com Tabelas - DIO.me</title>
+    <style>
+        table{
+            /* box-shadow: 3px 1px 12px 3px rgba(0,0,0,0.16); */
+            box-shadow: 3px 1px 12px 3px rgba(137, 43, 226, 0.201);
+            border: 1px solid blueviolet;
+        }
+
+        table td {
+            border: 1px solid blueviolet;
+        }
+
+        table thead th{
+            background-color: black;
+            color: white;
+        }
+
+        table tfoot td{
+            background-color: lightgray;
+        }
+
+        table tbody tr:nth-child(even) td{
+            background-color: #f1f1f1;
+        }
+
+        table tbody tr:hover td{
+            background-color: rgba(162, 62, 255, 0.648);
+            cursor: pointer;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <table summary="Tabela de idades dos alunos" border="1" width="350" align="center"> <!--NO HTML5, A ESTILIZAÇÃO DEVE SER FEITA NA CSS!!!!-->
-        <caption>Tabela de Idade dos alunos da DIO</caption>
+    <table  cellspacing="0" cellpadding="5" width="350" align="center"> <!--NO HTML5, A ESTILIZAÇÃO DEVE SER FEITA NA CSS!!!!-->
         <thead>
+            <tr>
+                <th colspan="2">Minha Tabela:</th>
+            </tr>
             <tr>
                 <th title="Nome completo">Nome:</th>
                 <th title="Idade dos alunos">Idade:</th>
