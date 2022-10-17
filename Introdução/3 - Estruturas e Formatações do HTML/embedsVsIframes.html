@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha HTML - Dio</title>
+</head>
+<body>
+    <h1>Embeds vs Iframes</h1>
+    <hr>
+    <h2>Tag &lt;embed&gt;</h2>
+    <!-- Semânticamente isso está incorreto ! o SEO não consegue identificar exatamente a oque se refere esse embed(que pode ser várias coisas) -->
+    <embed src="./assets/DIO-ConstruindoSeuNovoFuturo!.mp4" width="400" height="250">
+    <p><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas doloribus deserunt illum similique. Odit velit molestiae doloremque excepturi magni quas voluptatibus modi sint nihil eius. A rerum quibusdam corporis vitae!</span></p>
+    <p><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas doloribus deserunt illum similique. Odit velit molestiae doloremque excepturi magni quas voluptatibus modi sint nihil eius. A rerum quibusdam corporis vitae!</span></p>
+    <h2>Tag &lt;video&gt;</h2>
+    <p><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas doloribus deserunt illum similique. Odit velit molestiae doloremque excepturi magni quas voluptatibus modi sint nihil eius. A rerum quibusdam corporis vitae!</span></p>
+    <p><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas doloribus deserunt illum similique. Odit velit molestiae doloremque excepturi magni quas voluptatibus modi sint nihil eius. A rerum quibusdam corporis vitae!</span></p>
+    <video width="400" height="250" controls 
+    src="./assets/DIO-ConstruindoSeuNovoFuturo!.mp4">
+    <!-- Já aqui, o SEO reconhece que essa tag se refere a um vídeo! -->
+    </video>
+    <h2>Tag &lt;iframe&gt;</h2>
+    <p><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas doloribus deserunt illum similique. Odit velit molestiae doloremque excepturi magni quas voluptatibus modi sint nihil eius. A rerum quibusdam corporis vitae!</span></p>
+    <p><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas doloribus deserunt illum similique. Odit velit molestiae doloremque excepturi magni quas voluptatibus modi sint nihil eius. A rerum quibusdam corporis vitae!</span></p>
+    <iframe src="https://dio.me" width="500" height="400"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.5168589767677!2d-46.6577699857614!3d-23.585789584670735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce596942c1df0b%3A0xc715fbb0a1ea2faa!2sParque%20Ibirapuera%20-%20Port%C3%B5es%201%20e%202!5e0!3m2!1spt-BR!2sbr!4v1666009531656!5m2!1spt-BR!2sbr" width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/D9Zk2YKBOl8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
