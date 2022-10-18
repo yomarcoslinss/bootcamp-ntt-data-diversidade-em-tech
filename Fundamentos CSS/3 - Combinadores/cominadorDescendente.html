@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha CSS</title>
+    <style>
+        /*
+        *  Combinadores: qual tipo de relação entre 2 seletores...
+        * I. Combinador descendente (espaço)
+        * II. Combinador filho (>)
+        * III. Combinador irmão adjacente ()
+        * IV. Combinador irmão em geral ()
+
+        [SELETOR] [COMBINADOR] [SELETOR]
+        */
+
+        li {
+            color: red;
+        }
+
+        /* COMBINADOR DESCENDENTE
+        ABAIXO EU ESTOU PROCURANDO NO LI, FILHOS DO TIPO LI */
+        li li {
+            color: green;
+        }
+
+        /* ESTOU BUSCANDO NO SELETOR DE ID #lista-01
+        ELEMENTOS COM A TAG LI */
+        #lista-01 li {
+            background-color: lightblue;
+        }
+
+        .fundo-verde li {
+            background: lightgreen
+        }
+
+        .fundo-verde #sublista-01 li {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li class="fundo-verde" id="lista-01">
+            <div>Item 1</div>
+            <ul id="sublista-01">
+                <li>SubItem A</li>
+                <li>SubItem B</li>
+            </ul>
+        </li>
+
+        <li class="fundo-verde" id="lista-02">
+            <div>Item 2</div>
+            <ul id="sublista-02">
+                <li>SubItem A</li>
+                <li>SubItem B</li>
+            </ul>
+        </li>
+
+        <li class="fundo-verde">
+            <div>Item 3</div>
+            <ul id="sublista-03">
+                <li>SubItem A</li>
+                <li>SubItem B</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+
+</html>
