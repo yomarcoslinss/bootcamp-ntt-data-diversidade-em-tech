@@ -1,0 +1,37 @@
+.header  img {
+    width: 100px;
+    display: block;
+}
+
+.content a {
+    color: rgb(131, 204, 201);
+    text-decoration: none;
+}
+
+.content a:hover{
+    color: rgb(96, 153, 151);
+    text-decoration: underline
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 1000px;
+}
+
+table th{
+background-color: rgb(39, 79, 79);
+color: white;
+}
+
+table td:hover {
+    background-color: rgb(56, 156, 156);
+    color: white;
+}
+
+table td, th {
+    border: 1px solid black;
+    padding: 8px;
+}

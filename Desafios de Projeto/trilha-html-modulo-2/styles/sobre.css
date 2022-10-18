@@ -1,0 +1,15 @@
+.header  img {
+    width: 100px;
+    display: block;
+}
+
+.content ul li {
+    width: 230px;
+    height: 10px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.content ul li:nth-child(odd) {
+    float: left;
+}

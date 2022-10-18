@@ -1,0 +1,46 @@
+label {
+    text-align: center;
+    display: block;
+}
+
+input {
+    display: block;
+    margin: auto
+}
+
+textarea {
+    display: block;
+    margin: auto;
+}
+
+fieldset {
+    width: 500px;
+    margin: auto;
+    padding: 15px
+}
+
+legend {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.126);
+    text-align: center;
+    padding: 5px;
+}
+
+#bt {
+    text-align: center;
+}
+
+#contato p {
+    text-align: center;
+}
+
+#contato img {
+    padding-right: 5px;
+}
+
+#hr2 {
+    margin: 15px 0px;
+}
+
+#mapa {
+    text-align: center;
+}

@@ -1,0 +1,106 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Inter, Arial, Helvetica, sans-serif;
+
+}
+
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+}
+
+.header  img {
+    margin: auto;
+    display: block;
+    width: 250px;
+    padding: 15px;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(39, 79, 79);
+    padding: 30px 20px 0px 20px;
+    text-align: left;
+}
+
+.menu h1{
+    font-size: 2em;
+    padding-bottom: 5px;
+    color: white;
+    text-shadow: 3px 3px 9px rgba(0, 0, 0, 0.486);
+}
+.menu h2{
+    font-size: 1.2em;
+    color: white;
+    padding-bottom: 50px;
+    text-shadow: 3px 3px 9px rgba(0, 0, 0, 0.486);
+}
+
+.menu a{
+    font-size: 1.2em;
+    color: rgb(131, 204, 201);
+    text-decoration: none;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.296);
+}
+
+.menu  li {
+    padding-bottom: 10px;
+}
+
+.menu li::after {
+    content: ' 🐾​';
+}
+
+.menu li a:hover{
+    text-decoration: underline;
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.content h2 {
+    padding-bottom: 15px
+}
+
+.content>p{
+    padding-top: 15px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.content ul li {
+    padding: 10px;
+}
+.footer {
+    background-color: rgb(5, 35, 27);
+    color: white;
+    min-height: 127px;
+    text-align: center;
+    padding-top: 40px
+}
