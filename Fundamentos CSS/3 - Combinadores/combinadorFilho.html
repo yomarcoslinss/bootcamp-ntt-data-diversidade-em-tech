@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha CSS</title>
+    <style>
+        /* ESSE COMBINADOR SELECIONA TODOS OS ELEMENTOS QUE SAO FILHOS IMEDIATOS (OU FILHO DIRETO) */
+
+        div > p { 
+            color: red;
+        }
+
+        div > span > p {
+            color: blue
+        }
+
+        span > p {
+            background-color: black;
+        }
+
+        p {
+            color: yellow;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Parágrafo 1 dentro da div</p>
+        <p>Parágrafo 2 dentro da div</p>
+        <span>
+            <p>Parágrafo 3 dentro da div, dentro do span</p>
+        </span>
+    </div>
+
+    <p>Parágrafo 4, fora da div</p>
+    <p>Parágrafo 5, fora da div</p>
+</body>
+</html>
