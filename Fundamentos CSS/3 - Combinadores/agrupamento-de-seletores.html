@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS</title>
+    <style>
+        .texto, h1, #link-referencia { /* Eu posso selecionar vários elementos e até mesmo misturar tags com id's e classes, basta separar por (,)*/
+            color: red;
+        }
+
+        h1, [id^="botao"] {
+            background-color: lightcoral;
+        }
+
+        p.teste { /* Será selecionado o elemento que seja "p" E QUE TENHA a classe "teste"*/
+            color: blueviolet;
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Agrupamento de Seletores</h1>
+    <p class="texto">Podemos aplicar as mesmas regras CSS para vários seletores diferentes. Para isso, podemos separar os seletores utilizando uma virgula (,).</p>
+    <p class="teste">Teste</p>
+    <div class="texto">Assim, não precisamos ficar copiando e colando os mesmos códigos para todos, nós podemos fazer um só bloco de CSS e realizar as mesmas regras!</div>
+    <br><br>
+    <a id="link-referencia" href="#">Clique para ver a documentação</a>
+    <br><br>
+    <a id="link-suporte" href="#">Clique para entrar em contato</a>
+    <br><br>
+    <a id="botao-voltar" href="#">Voltar</a>
+    <br><br>
+    <button id="botao-fechar">Fechar página</button>
+</body>
+</html>
