@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS</title>
+    <style>
+        /*
+        * SELETORES: definem em quais elementos nós vamos aplicar a CSS
+        * I. Seletor de Tag/Tipo
+        * II. Seletor de Id
+        * III. Seletor de Classes
+        * IV. Seletor Universal
+        * V. Seletor de atríbuto
+        */
+
+        /* [atributo] 
+            OU 
+         [atributo="valorEXATO"]
+            OU
+        [atributo~="valorparcial"] */
+        [title~="Streaming"] { /* Com o ~ , qualquer titulo que tenha "Streaming" no meio do texto, será selecionado*/
+            background-color: red;
+        }
+
+        [href^="http://"] { /* O href que COMEÇAR com "http://, será selecionado!*/
+            color: yellow;
+        }
+
+        [href$="login"] { /* P href que TERMINAR com "login" será selecionado !*/ 
+            text-decoration: line-through;
+            color: green;
+        }
+
+        [href*="facebook"] {/* O href que ter "facebook" em QUALQUER lugar do texto, será selecionado*/
+            background-color: purple;
+            color: white;
+            text-decoration: none;
+        }
+
+       
+        /* FOI USADO O SELETOR DE ATRIBUTO NESSE DOCUMENTO ! */
+    </style>
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li>
+                <a title="Streaming Netflix" href="https://www.netflix.com">Netflix</a>
+            </li>
+            <li>
+                <a title="Streaming Prime" href="http://www.primevideo.com">Prime Vídeo</a>
+            </li>
+            <li>
+                <a title="Spotify" href="https://www.spotify.com/login">Spotify</a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com">Facebook</a>
+            </li>
+            <li>
+                <a title="Disney">Disney Plus</a>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
