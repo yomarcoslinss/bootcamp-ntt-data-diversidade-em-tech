@@ -18,4 +18,5 @@ Princípios de Cloud Computing com AWS ✖️
 ---------------
 ## Desafios de Projeto:
 • [Link do Repositório](https://github.com/yomarcoslinss/bootcamp-ntt-data-diversidade-em-tech/tree/main/Desafios%20de%20Projeto)  
-• [Módulo 01 - Primeiros passos com HTML](https://yomarcoslinss.github.io/bootcamp-ntt-data-diversidade-em-tech/Desafios%20de%20Projeto/trilha-html-modulo-1/index.html)
+• [Módulo 01 - Primeiros passos com HTML](https://yomarcoslinss.github.io/bootcamp-ntt-data-diversidade-em-tech/Desafios%20de%20Projeto/trilha-html-modulo-1/index.html)  
+• [Módulo 02 - Conceitos Básicos do HTML](https://yomarcoslinss.github.io/bootcamp-ntt-data-diversidade-em-tech/Desafios%20de%20Projeto/trilha-html-modulo-2/index.html)  
