@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS</title>
+    <style> /* CSS Interno */
+        h1 {
+            background: blue;
+            color: white;
+        }
+
+        h2 {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!--CSS Inline-->
+    <!-- NAO ESTÁ RECEBENDO O ESTILO DO CSS INTERNO PORQUE O CSS INLINE TEM MAIOR PRIORIDADE -->
+    <h1 style="background: red; color: white;" >DIO - Digital Inovation One</h1>
+    <h2 style="color: red;">Trilha de CSS</h2> 
+    <hr>
+    <!-- Está recebendo o estilo do CSS Intenro (Tag <style> no head) -->
+    <h1>DIO - Digital Inovation One</h1>
+    <h2>Trilha de CSS</h2>
+</body>
+</html>
