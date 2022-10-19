@@ -14,10 +14,23 @@
             background-color: palevioletred;
             width: 200px;
             height: 200px;
-            border-width: 5px;
-            border-style: solid;
-            border-color: deepskyblue deeppink olivedrab rebeccapurple ; 
-            /* Por padrão, a cor da borda irá herdar a cor da propriedade color (caso não tenha, será preto)*/
+
+
+            border: 10px solid palegoldenrod;
+            /* border-width, border-style, border-color */
+            /*  */
+        }
+
+
+        .exemplo2{
+            background-color: palevioletred;
+            width: 200px;
+            height: 200px;
+
+            border-top: 10px solid blue;
+            border-right: 10px dashed red;
+            border-bottom: 10px double green; 
+            border-left: 10px dotted yellow;
         }
     </style>
 </head>
@@ -29,8 +42,11 @@
         <li>border-style</li>
         <li>border-color:</li>
     </ul>
+
     <h2>Exemplo:</h2>
     <div class="exemplo"></div>
+    <hr style="margin: 30px 0px 30px;">
+    <div class="exemplo2"></div>
 
 </body>
 </html>
