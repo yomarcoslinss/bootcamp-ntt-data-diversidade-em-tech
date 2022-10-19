@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS - DIO.me</title>
+    <style>
+        .exemplo {
+            background-color: black;
+            width: 200px;
+            height: 200px;
+            border: 30px solid;
+            margin: 50px auto;
+        }
+
+        #exemplo-resumido {
+            border-image: url(./assets/borda.png) 27/ 10px/1 round;
+            /* border-image-source, border-image-slice, border-image-repeat */
+                                         /* OU */
+            /* image, slice / width / outset, repeat  */
+        }
+
+        #exemplo1 {
+            border-image-source: url(./assets/borda.png);
+            border-image-repeat: round;
+            border-image-slice: 27;
+        }
+
+        #exemplo2{
+            border-image-source: linear-gradient(deepskyblue, blue);
+            border-image-slice: 10;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Borda com Imagens</h1>
+    <ul>
+        <li>border-image-source</li>
+        <li>border-image-width</li>
+        <li>border-image-repeat</li>
+        <li>border-image-outset</li>
+        <li>border-image-slice</li>
+    </ul>
+    <h2>Exemplo:</h2>
+    <div id="exemplo-resumido" class="exemplo"></div>
+    <div id="exemplo1" class="exemplo"></div>
+    <div id="exemplo2" class="exemplo"></div>
+
+    <hr>
+    <img style="width: 1000px;" src="./assets/border-image-slice.png">
+</body>
+</html>
