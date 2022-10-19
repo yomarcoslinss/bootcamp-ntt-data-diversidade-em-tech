@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS - DIO.me</title>
+    <style>
+        .exemplo {
+            width: 200px;
+            height: 200px;
+            background-color: black;
+            margin-bottom: 20px;
+            border: 30px solid;
+        }
+
+        #exemplo1 {
+            border-image-source: url(./assets/borda.png);
+            border-image-slice: 27;
+
+
+
+            border-image-repeat: round space;
+            /*
+            repeat: divide a imagem para preencher todos os lados
+            streetch: estica a imagem para caber nas bordas (exceto os cantos)
+            round: vai evitar cortar a imagem, irá redimensionar para caber no espaço necessário (semelhante ao repeat)
+            space: se a área não puder ser preenchida por completo, ele dá um espaçamento (pode distorcer a imagem)
+            */
+        }
+
+        #exemplo2{
+            border-image-source: linear-gradient(deepskyblue, blue);
+            border-image-slice: 10;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Borda com Imagens</h1>
+    <ul>
+        <li>border-image-source</li>
+        <li>border-image-width</li>
+        <li>border-image-repeat</li>
+        <li>border-image-outset</li>
+        <li>border-image-slice</li>
+    </ul>
+    <h2>Exemplo:</h2>
+    <div id="exemplo1" class="exemplo"></div>
+    <div id="exemplo2" class="exemplo"></div>
+
+    <hr>
+    <img style="width: 1000px;" src="./assets/border-image-slice.png">
+</body>
+</html>
