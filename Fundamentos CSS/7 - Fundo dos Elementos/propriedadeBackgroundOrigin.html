@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS - DIO.me</title>
+    <style>
+        body{
+            height: 200vh;
+        }
+        div {
+            margin-bottom: 30px;
+        }
+
+        .exemplo {
+            width: 300px;
+            height: 300px;
+            background-image: url(./assets/bg5.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            border: 15px dashed palegoldenrod;
+            padding: 30px;
+        }
+
+        #padding-box{
+            background-origin: padding-box;
+        }
+
+        #border-box{
+            background-origin: border-box;
+        }
+
+        #content-box{
+            background-origin: content-box;
+        }
+    </style>
+</head>
+<body>
+    <h1>Propriedade <code>background-origin</code></h1>
+    <hr>
+    <code>background-origin: padding-box;</code>
+    <p>Valor padrão, a imagem de fundo não cobre a área da borda, mas cobre a área do padding</p>
+    <div id="padding-box" class="exemplo"></div>
+
+    <code>background-origin: border-box;</code>
+    <p>Com esse valor, a imagem de fundo irá cobrir todo o elemento (incluindo as bordas)</p>
+    <div id="border-box" class="exemplo"></div>
+
+    
+    <code>background-origin: content-box;</code>
+    <p>Com esse valor, a imagem não irá cobrir a área da borda e nem a do padding (cobre somente o conteúdo do elemento)</p>
+    <div id="content-box" class="exemplo"></div>
+</body>
+</html>
