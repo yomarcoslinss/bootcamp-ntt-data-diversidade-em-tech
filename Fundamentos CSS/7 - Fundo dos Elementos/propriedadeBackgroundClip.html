@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS - DIO.me</title>
+    <style>
+        body{
+            height: 200vh;
+        }
+        div {
+            margin-bottom: 30px;
+        }
+
+        .exemplo {
+            background-color: palevioletred;
+            width: 300px;
+            height: 300px;
+            border: 15px dashed palegreen;
+            color: white;
+            font-weight: 900;
+            font-size: 40px;
+            padding: 30px;
+        }
+
+        .exemplo2 {
+            background-color: palevioletred;
+            width: 300px;
+            height: 300px;
+            border: 15px dashed palegreen;
+            color: white;
+            font-weight: bolder;
+            font-size: 100px;
+            padding: 30px;
+            background-image: url(./assets/bg1.jpg);
+        }
+
+        #padding-box{
+            background-clip: padding-box;
+        }
+
+        #border-box{
+            background-clip: border-box;
+        }
+
+        #content-box{
+            background-clip: content-box;
+        }
+
+        #text {
+            -webkit-background-clip: text;
+            color: transparent;
+            background-clip: text;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Propriedade <code>background-origin</code></h1>
+    <hr>
+    <code>background-clip: padding-box;</code>
+    <div id="padding-box" class="exemplo">Trilha de CSS</div>
+
+    <code>background-clip: border-box;</code>
+    <div id="border-box" class="exemplo">Trilha de CSS</div>
+
+    
+    <code>background-clip: content-box;</code>
+    <div  id="content-box" class="exemplo">Trilha de CSS</div>
+
+    <code>background-clip: text</code>
+    <div id="text" class="exemplo2">Texto</div>
+</body>
+</html>
