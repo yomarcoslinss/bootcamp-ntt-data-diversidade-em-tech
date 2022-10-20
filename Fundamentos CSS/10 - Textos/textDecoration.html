@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS - DIO.me</title>
+    <style>
+        body {
+            font-family: Inter,  Arial, Helvetica, sans-serif;
+        }
+        
+        a {
+            color: black;
+            text-decoration: overline solid paleturquoise 2px;
+            /* Shorthand: line, style, color, thickness */
+            
+        }
+        code {
+            background-color: palegreen
+        }
+
+        h1 + p {
+            text-decoration-line: line-through;
+            /*
+            * none: nenhuma decoração (valor padrão)
+            * underline: linha em baixo do texto
+            * overline: linha em cima do texto 
+            * line-through: linha no meio do texto
+            */
+            text-decoration-style: double ; /* none, solid, dotted, dashed, double, wavy  */
+            text-decoration-color: red; /* Cor da linha (pouco óbvio)*/
+            text-decoration-thickness: 5px; /* espessura da linha (aceita várias unidades de medida)*/
+          
+        }
+    </style>
+</head>
+<body>
+    <h1>Propriedade <code>text-decoration</code></h1>
+    <p>Adiciona ou remove linhas no nosso texto: sejam linhas em cima, no meio ou embaixo.</p>
+    <ul>
+        <p>É uma propriedade abreviada de:</p>
+        <li><code>text-decoration-line</code></li>
+        <li><code>text-decoration-style</code></li>
+        <li><code>text-decoration-color</code></li>
+        <li><code>text-decoration-thickness</code></li>
+    </ul>
+    <a href="#">Link de Exemplo</a>
+</body>
+</html>
