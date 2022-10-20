@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS - DIO.me</title>
+    <style>
+        * {
+            font-family: Inter, Arial, Helvetica, sans-serif
+        }
+
+        #tamanho {
+            font-size: 20px;
+        }
+
+        code {
+            background-color: palegreen;
+            display: none;
+        }
+        #xx-small{
+            font-size: xx-small;
+        }
+        #x-small{
+            font-size: x-small;
+        }
+        #small{
+            font-size: small;
+        }
+        #medium{
+            font-size: medium;
+        }
+        #large{
+            font-size: large;
+        }
+        #x-large{
+            font-size: x-large;
+        }
+        #xx-large{
+            font-size: xx-large;
+        }
+
+        div {
+            font-size: 20px;
+        }
+
+        div p {
+            font-size:smaller;
+        }
+        /* larger / smaller irá basear o tamanho da fonte pelo tamanho do elemento pai */
+    </style>
+</head>
+<body>
+    <h1>Propriedade <code>font-size</code></h1>
+    <p id="tamanho">Alterando o tamanho do texto</p>
+    <p><code>font-size: xx-small;</code></p>
+    <p id="xx-small">xx-small</p>
+    <p><code>font-size: x-small;</code></p>
+    <p id="x-small">x-small</p>
+    <p><code>font-size: small;</code></p>
+    <p id="small">small</p>
+    <p><code>font-size: medium;</code></p>
+    <p id="medium">medium</p>
+    <p><code>font-size: large;</code></p>
+    <p id="large">large</p>
+    <p><code>font-size: x-large;</code></p>
+    <p id="x-large">x-large</p>
+    <p><code>font-size: xx-large;</code></p>
+    <p id="xx-large">xx-large</p>
+
+    <div>
+        Elemento pai
+        <p>Elemento filho</p>
+    </div>
+    
+</body>
+</html>
