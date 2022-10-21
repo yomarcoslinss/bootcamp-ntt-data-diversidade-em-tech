@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS - DIO</title>
+    <style>
+        .exemplo {
+            width: 200px;
+            color: black;
+            background-color: chartreuse;
+        }
+
+        p{
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        #clip { /* Valor padrão (o texto é cortado)*/
+            text-overflow: clip; 
+        }
+
+        #ellipsis { 
+            text-overflow: ellipsis;
+        }
+
+        #string { 
+            text-overflow: "Ver mais"; /* (alguma string) imcompativel com a maioria dos navegadores */
+        }
+    </style>
+</head>
+<body>
+    <h1>Propriedade <code>text-overflow</code></h1>
+    <p>Define a orientação do texto (vertical ou horizontal).</p>
+    <p><i>Exemplos:</i></p>
+    <p><code>text-overflow: clip;</code></p>
+    <p class="exemplo" id="clip">Chega de saudade A realidade é que sem ela não há paz</p>
+
+    <p><code>text-overflow: ellipsis;</code></p>
+    <p class="exemplo" id="ellipsis">Chega de saudade A realidade é que sem ela não há paz</p>
+
+    <p><code>text-overflow: string;</code></p>
+    <p class="exemplo" id="string">Chega de saudade A realidade é que sem ela não há paz</p>
+
+</body>
+</html>

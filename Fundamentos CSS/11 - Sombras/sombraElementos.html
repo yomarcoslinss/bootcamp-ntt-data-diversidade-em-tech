@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS - DIO.me</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            border: 10px solid blue;
+            background: deepskyblue;
+            margin: 20px auto;
+
+            box-shadow: 30px 30px 30px deepskyblue ;
+            /* horizontal | vertical | desfoque | cor */
+            /* desfoque = valor positivo: sombra espalhada - valor negativo: sombra menor */
+        }
+
+        div#interna { /* Sombra interna no elemento */
+            width: 200px;
+            height: 200px;
+            border: 10px solid deeppink ;
+            background: pink;
+            margin: 20px auto;
+
+            box-shadow: inset 0px 0px 15px purple ;
+        }
+
+        /* EU TAMBEM POSSO MESCLAR A SOMBRA INTERNA COM A EXTERNA, BASTA ACRESCENTAR UMA | , | ENTRE AS SOMBRAS */
+
+        div#interna-externa {
+            width: 200px;
+            height: 200px;
+            border: 10px solid blue;
+            background: deepskyblue;
+            margin: 20px auto;
+
+            box-shadow: 0px 0px 30px deepskyblue, inset 0px 0px 15px purple ;
+        }
+
+        img{
+            width: 500px;
+            display: block;
+            text-align: center;
+            margin: 20px auto;
+            object-fit: cover;
+
+
+            /* SOMBRA EM VOLTA DA IMAGEM (E NAO DA CAIXA) */
+            filter: drop-shadow(10px 10px 5px gray)
+        }
+    </style>
+</head>
+<body>
+   <h1>Propriedade <code>box-shadow</code></h1>
+   <div></div>
+   <div id="interna"></div>
+   <div id="interna-externa"></div>
+   <img src="https://hermes.digitalinnovation.one/assets/diome/logo.png" alt="">
+</body>
+
+</html>
