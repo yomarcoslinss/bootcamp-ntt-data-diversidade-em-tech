@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS - DIO.me</title>
+    <style>
+        .exemplo {
+            width: 100px;
+            background-color: rgb(27, 209, 219);
+            color: white;
+        }
+
+        #normal {word-break: normal;} /* Valor padrão */
+        #break-all{word-break: break-all;}
+        #keep-all{word-break: keep-all;}
+    </style>
+</head>
+
+<body>
+    <h1>Propriedade <code>word-break;</code></h1>
+    <p>Define, caso uma palavra seja muito grande para caber em uma linha, ela será quebrada em qualquer caractere para
+        que uma parte dela fique na linha e o restante na próxima, ou se não, toda palavra deve ficar na mesma linha e
+        ultrapassar os limites que definimos para o elemento</p>
+    <p><code>word-break: normal</code></p>
+    <p class="exemplo" id="normal">Trilha de CSS TrilhaDeCSSTudoJunto Trilha de CSS</p>
+
+    <p><code>word-break: break-all;</code></p>
+    <p class="exemplo" id="break-all">Trilha de CSS TrilhaDeCSSTudoJunto Trilha de CSS</p>
+
+    <p><code>word-break: keep-all;</code></p>
+    <p class="exemplo" id="keep-all">Trilha de CSS TrilhaDeCSSTudoJunto Trilha de CSS</p>
+
+</body>
+
+</html>
