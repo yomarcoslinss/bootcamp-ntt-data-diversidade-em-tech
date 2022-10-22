@@ -5,12 +5,89 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
-    border: 0;
     font-family: 'Raleway', sans-serif;
 }
 
-.banner-content {
-    background: black url(../img/banner.png) no-repeat center top;
+body{
+    background-color: black;
+}
+
+header.banner {
+    margin-top: 15px;
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(49, 168, 221, .2), rgba(0, 0, 0, 0.725)), url(../img/banner.png);
+    background-color: #0d161d;
     background-size: cover;
     height: 100vh;
+    border-bottom: 1px solid #144053;
+    padding-top: 60px;
+}
+
+
+.banner .logo-css {
+    background-color: rgba(0, 0, 0, 0.262);
+    margin: auto;
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.logo-css img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    object-fit: cover;
+}
+
+.banner h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: transparent;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+
+}
+
+.banner p {
+    text-align: center;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.725);
+    color: white;
+    width: 490px;
+    margin: auto;    
+}
+
+.banner button {
+    background-color: transparent;
+    color: #33A8DB;
+    font-weight: bold;
+    padding: 16px 32px;
+    border-image: linear-gradient(#3BA1CD, #1572B7);
+    border-image-slice: 10;
+    letter-spacing: 3px;
+    font-size: 1rem;
+    display: block;
+    margin: 30px auto 0;
+    cursor: pointer;
+}
+
+section#conteudos {
+    height: 100vh;
+}
+
+#conteudos h2 {
+    color: transparent;
+    background-clip: text;
+    font-size: 2.5rem;
+    font-weight: 600;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    margin: 100px auto;
+    text-align: center;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    -webkit-background-clip: text;
 }
