@@ -48,6 +48,7 @@ header.banner {
     background: -webkit-linear-gradient(#33A8DB, #1472B7);
     background-clip: text;
     -webkit-background-clip: text;
+    padding-bottom: 20px;
 
 }
 
@@ -77,6 +78,7 @@ header.banner {
 
 section#conteudos {
     height: 100vh;
+    border-bottom: 1px solid #144053;
 }
 
 #conteudos h2 {
@@ -84,10 +86,44 @@ section#conteudos {
     background-clip: text;
     font-size: 2.5rem;
     font-weight: 600;
-    word-spacing: 5px;
-    letter-spacing: 3px;
-    margin: 100px auto;
+    word-spacing: 4px;
+    letter-spacing: 4px;
+    margin: 120px auto 30px;
     text-align: center;
     background: -webkit-linear-gradient(#33A8DB, #1472B7);
     -webkit-background-clip: text;
+}
+
+#modulos p {
+    color: white;
+    text-align: center;
+    width: 800px;
+    margin: auto;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.725);
+}
+
+.botao-modulo {
+    background-color: #252525;
+    display: block;
+    width: 650px;
+    border-radius: 30px;
+    margin: 30px auto;
+    color: white;
+    padding: 25px;
+    border: 1px solid #33A8DB;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: inset 1px 1px 40px black;
+}
+
+.botao-modulo span {
+    color: #33A8DB;
+}
+
+section#transforme {
+    height: 100vh;
+    background-image: url(../img/woman-code.png);
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
 }
