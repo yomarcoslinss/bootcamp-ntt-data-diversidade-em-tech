@@ -121,9 +121,61 @@ section#conteudos {
 }
 
 section#transforme {
-    height: 100vh;
+    height: 90vh;
     background-image: url(../img/woman-code.png);
     background-position: top center;
     background-attachment: fixed;
     background-size: cover;
+    padding: 200px;
+    border-bottom: 1px solid #144053;
+}
+
+#transforme div {
+    font-size: 40px;
+    max-width: 250px;
+    font-weight: 900;
+    text-shadow: 3px 2px #33a8db;
+    color: white;
+}
+
+section#evolua {
+    margin: 32px auto 0px;
+    height: 130vh;
+    display: block;
+    padding: 80px;
+    border-bottom: 1px solid #144053;
+}
+
+#evolua h2 {
+    color: transparent;
+    background-clip: text;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    -webkit-background-clip: text;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    word-spacing: 4px;
+    letter-spacing: 4px;
+    margin-bottom: 24px;
+}
+
+#evolua img {
+    display: block;
+    margin: 50px auto;
+}
+
+#evolua p {
+    color: white;
+    text-align: center;
+}
+
+footer {
+    padding: 80px;
+    height: 40vh;
+    text-align: center;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+}
+
+footer p {
+    color: white;
 }
