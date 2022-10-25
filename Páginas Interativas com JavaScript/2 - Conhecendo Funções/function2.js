@@ -27,7 +27,7 @@ function classificarImc(imc) {
     console.log(classificarImc(imc))
 
 })();
-/* ACIMA ESTÁ UMA "FUNÇÃO IMEDIATAMENTE INVOCADA" */
+/* Acima está uma "função imediatamente invocada" */
 /* Bastante usado em websites */
 
 
