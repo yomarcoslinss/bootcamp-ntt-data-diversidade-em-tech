@@ -9,18 +9,30 @@
 *
 * Código Condição de Pagamento:
 * 
-* - Débito à vista: recebe 10% de desconto;
-* - Dinheiro à vista (ou PIX): recebe 15% de desconto; 
-* - Em duas vezes: preço normal de etíqueta sem juros;
-* - Acima de duas vezes, preço normal de etiqueta + juros de 10%;
+* 1 - Débito à vista: recebe 10% de desconto;
+* 2 - Dinheiro à vista (ou PIX): recebe 15% de desconto; 
+* 3 - Em duas vezes: preço normal de etíqueta sem juros;
+* 4 - Acima de duas vezes, preço normal de etiqueta + juros de 10%;
 *
 */
 
-let valorProduto = 100;
-let pagamento = ' '
+let precoProduto = 100
+const formaPagamento = 1
 
-if (pagamento === 'debito') {
-    var debito = valorProduto % 90
+
+
+if (formaPagamento == '1') {
+   debito = precoProduto / 100 * 90
+   console.log(`Você irá pagar R$ ${debito}`)
+} else if (formaPagamento == '2') {
+    dinheiro = precoProduto / 100 * 85
+    console.log(`Você irá pagar R$ ${dinheiro}`)
+} else if (formaPagamento == '3') {
+    duasVezes = precoProduto
+    console.log(`Você irá pagar R$ ${duasVezes}`)
+} else if (formaPagamento == '4') {
+    parcelado = precoProduto + (precoProduto * 0.10)
+    console.log(`Você irá pagar R$ ${parcelado}`)
+} else {
+    console.log('ERRO !!! Informe uma forma de pagamento valida. ( Débito à vista = 1 | Dinheiro ou PIX = 2 | Duas vezes no crédito = 3 | Acima de 2 vezes = 4 )')
 }
-
-console.log(debito)
