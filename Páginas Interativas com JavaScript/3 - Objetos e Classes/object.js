@@ -1,36 +1,27 @@
 /* 
 *
 * No JS, um objeto é uma coleção dinâmica de chave e valor.
-* Segue abaixo a estrutura de um Objeto Literal :
-* Uma função dentro de um objeto, é chamada de Método!
-* Ao declarar um método, eu não preciso escrever 'function'
 *
 */
 
-const pessoa = {
-    nome: 'Marcos Linss',
-    idade: 19,
 
-    descrever: function () {
-        console.log(`Meu nome é ${this.nome} e minha idade é :${this.idade}`)
-    }
-};
+// Estrutura de um objeto literal:
+const marcos = {
+    nome: 'Marcos Vinícius Barbosa dos Santos',
+    idade: 19
+}
 
-pessoa.nome = 'Renan';
-pessoa.idade = 30;
+// Editando um valor do meu objeto:
+marcos.nome = 'Marcos Linss';
+
+// Adicionando um par chave/valor ao meu objeto:
+marcos.altura = 1.69;
 
 
-pessoa.descrever()
+// Removendo um par chave/valor do meu objeto
+delete marcos.idade;
 
-console.log(pessoa.nome);
-console.log(pessoa.idade);
-console.log(pessoa);
 
-// Adicionando uma nova chave/valor ao meu objeto:
-
-pessoa.altura = 1.69;
-console.log(pessoa);
-
-// Removendo uma chave/valor do meu objeto:
-delete pessoa.nome;
-console.log(pessoa);
+console.log(marcos) // Irá imprimir o meu objeto todo.
+console.log(marcos.idade) // Irá imprimir o meu par chave/valor "idade", que está dentro do meu objeto.
+console.log(marcos.altura) // Irá imprimir o meu par chave/valor "altura", que está dentro do meu objeto.
