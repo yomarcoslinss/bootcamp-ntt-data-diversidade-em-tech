@@ -8,27 +8,24 @@
 */
 
 
-class Carros {
+class Carro {
     marca;
     cor;
-    litrosPorKm;
-    precoCombustivel;
-    distancia;
+    litroPorKm;
 
-
-    constructor(precoCombustivel, distancia){
+    constructor(marca, cor, litroPorKm) {
         this.marca = marca;
         this.cor = cor;
-        this.litrosPorKm = litrosPorKm;
-        this.precoCombustivel = 7;
+        this.litroPorKm = litroPorKm;
     }
 
-    calcularValor(n1) {
-        n1 = this.litrosPorKm 
+    calcularValor(distanciaViagem, valorCombustivel){
+        return ((distanciaViagem / this.litroPorKm) * valorCombustivel).toFixed(2) 
     }
-
-   
 }
 
-const carro = new Carros('Ford', 'vermelho', 19)
-console.log(carro)
+const mobi = new Carro('Fiat', 'Vermelho', 12);
+console.log(mobi.calcularValor(70, 5));
+
+const palio = new Carro('Fiat', 'Preto', 10);
+console.log(palio.calcularValor(70, 5))
