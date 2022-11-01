@@ -40,5 +40,5 @@ loadMoreButton.addEventListener('click', () => {
 })
 
 function statsPokemon() {
-    window.open('./assets/html/pokemon.html')
+    window.open('./assets/html/pokemonStats.html')
 }
