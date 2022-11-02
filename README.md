@@ -10,7 +10,7 @@ Incompleto: ❌
 Prepare-se Para a Jornada (Onboarding) ✅ 14/10/2022  
 Páginas Web com HTML e CSS ✅ 23/10/2022  
 Primeiras Páginas Interativas com JavaScript ✅ 01/11/2022    
-Dominando Algoritmos Básicos com Desafios de Código JavaScript ❌  
+Dominando Algoritmos Básicos com Desafios de Código JavaScript ✅ 02/11/2022  
 Começando no Framework Angular ❌  
 Dominando Algoritmos Intermediários com Desafios de Código JavaScript ❌  
 Princípios de Cloud Computing com AWS ❌ 
