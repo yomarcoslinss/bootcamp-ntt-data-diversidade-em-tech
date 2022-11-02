@@ -1,5 +1,5 @@
 # Trilha JS Developer - Pokedex
-## Trilha de CSS - Desafio 01 | DIO.me
+## Trilha de JS - Pokedex | DIO.me
 > Esse **Desafio de Projeto** consiste em criar uma Pokedex através do consumo de uma API REST e usando HTML, CSS e JavaScript, colocando em prática todos os fundamentos web aprendidos até aqui, foi dado também o desafio de desenvolver um modal com alguns dados dos pokemons (eu me fundamentei em outro fork) [Repositório da DIO](https://github.com/digitalinnovationone/js-developer-pokedex)  
 
 
