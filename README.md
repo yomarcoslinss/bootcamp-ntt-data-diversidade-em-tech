@@ -22,3 +22,5 @@ Princípios de Cloud Computing com AWS ❌
 - [Módulo 02 - Conceitos Básicos do HTML](https://yomarcoslinss.github.io/bootcamp-ntt-data-diversidade-em-tech/Desafios%20de%20Projeto/trilha-html-modulo-2/index.html)  
 - [Trilha de CSS - Desafio 01: Landing Page com HTML e CSS](https://yomarcoslinss.github.io/bootcamp-ntt-data-diversidade-em-tech/Desafios%20de%20Projeto/trilha-css-desafio-01/index.html)  
 - [Trilha JS Developer - Pokedex](https://yomarcoslinss.github.io/bootcamp-ntt-data-diversidade-em-tech/Desafios%20de%20Projeto/js-developer-pokedex/index.html)  
+
+#makethechange
