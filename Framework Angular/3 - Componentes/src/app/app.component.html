@@ -1,0 +1,18 @@
+<hello name="{{ name }}"></hello>
+<menu-component></menu-component>
+<p>Start editing to see some magic happen :)</p>
+<h1>yomarcoslinss</h1>
+
+<!-- Data Binding === Associação de Dados -->
+
+<!-- Property Binding (Passando valores diretamente com string) -->
+<my-button label="{{ buttonLabel }}"></my-button>
+<my-button label="Noticias"></my-button>
+
+<!-- Interpolação (Valores dinâmicos com variáveis) -->
+<my-button [label]="buttonSecond"></my-button>
+<my-button [label]="'buttonSecond'"></my-button>
+<my-button [teste]="buttonThird"></my-button>
+
+<!-- Two Way Data Binding (Comunicação entre os 2 lados: HTML e TypeScript) -->
+<app-entry-data> </app-entry-data>
