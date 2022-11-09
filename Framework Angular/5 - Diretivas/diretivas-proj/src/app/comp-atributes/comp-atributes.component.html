@@ -1,0 +1,41 @@
+<!-- ngClass -->
+<p [ngClass]="estilo">comp-atributes works!</p>
+<button (click)="trocar()">Trocar</button>
+
+
+
+<!-- ngStyle -->
+<h1 [ngStyle]="{'background-color': corFundo, 'color': corFonte}">Curso Angular</h1>
+
+<!-- ng-content -->
+<ng-content select="h2"></ng-content>
+
+<!-- ngModel -->
+<!-- Eu preciso importar o 'FormsModule' do '@angular/form' no 'app.module.ts' -->
+<hr>
+<h1>Lista de compras</h1>
+<p>Anote as suas compras adicionando os itens na lista abaixo:</p>
+<input type="text" [(ngModel)]="item">
+<button (click)="adicionarLista()">Adicionar</button>
+<p>{{item}}</p>
+<ng-content select="p"></ng-content> <!-- ng-content -->
+<ul>
+    <li *ngFor="let compras of lista">{{ compras }}</li>
+</ul>
+<hr>
+
+
+
+
+<!-- ngTemplate -->
+<!-- Por padrão, o ngTemplate é oculto, ele só será exibido caso ele atenda a uma condição que altere o ngIf para "true" -->
+<hr>
+<ng-template [ngIf]="isEnableBlock">
+    <a href="#">Finalizar compra</a>
+</ng-template>
+
+<ng-template [ngIf]="isEnableBlock">
+    <a href="#">Adicionar ao carrinho</a>
+</ng-template>
+<hr>
+
