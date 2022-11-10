@@ -1,0 +1,11 @@
+@media screen and (max-width: 320px) {
+  .container__small-card {
+    width: 300px;
+  }
+
+  .container__small-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
