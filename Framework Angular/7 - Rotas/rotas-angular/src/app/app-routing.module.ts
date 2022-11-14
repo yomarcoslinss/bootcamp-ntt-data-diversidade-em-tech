@@ -5,15 +5,20 @@ import { TitleComponent } from './pages/index/title/title.component';
 import { CardComponent } from './pages/portifolio/card/card.component';
 
 const routes: Routes = [
-  {
-    path: '', // caminho • Obs : Definir o caminho como vazio, irá torna-lo como página padrão do site
-    component: TitleComponent ,
-    pathMatch: 'full', // full: quando eu quero a URL EXATA !   prefix: quando eu quero que a url contenha o prefixo e outras coisas depois. 
-  },
-  {
-    path: 'portifolio',
-    component: CardComponent,
-  }
+ {
+  path: '',
+  component: TitleComponent ,
+  pathMatch: 'full' , // full: Normalmente usado para a página principal • prefix: quando eu insiro a url principal e uso /exemplo, eu caio em uma subpagina
+ },
+
+ {
+  path: 'portfolio/:id',
+  component: CardComponent,
+ },
+ {
+  path: '**', // Rota coringa: caso o usuário insira um path inválido, ele será redirecionado ao caminho que eu definir: 
+  redirectTo: '' // Caso eu deixe em branco '', o usuário será redirecionado para a página principal
+ },
 ];
 
 @NgModule({
