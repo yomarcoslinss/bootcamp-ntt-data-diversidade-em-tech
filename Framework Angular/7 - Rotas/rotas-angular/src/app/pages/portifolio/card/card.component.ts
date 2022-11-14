@@ -12,6 +12,11 @@ export class CardComponent implements OnInit {
     this.parametrizador.params.subscribe(
       res => console.log(res)
     )
+
+    this.parametrizador.queryParams.subscribe(
+      res => console.log(res)
+    )
+
    }
   
   ngOnInit(): void {
