@@ -2,9 +2,9 @@
   Bootcamp NTT DATA Diversidade em Tech
 </h1>
 
-<h2 align="center">
+<div align="center">
   <img src="./Fundamentos CSS/1 - Formas de Declaração CSS/assets/ntt-data.webp" width="250px">
-</h2>
+</div>
 
 <p align="center">Meu repositório do Bootcamp <a href="https://web.dio.me/track/38a27e68-67ae-444d-9110-1056e605237d" target="_blank">NTT DATA Diversidade em Tech</a> da plataforma <strong>DIO</strong>.</p>
 
